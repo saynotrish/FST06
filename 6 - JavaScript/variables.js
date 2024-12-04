@@ -107,3 +107,45 @@ console.log("Strict Not Equal to (!==):", 5 !== "5");
 console.log("Greater Than (>):", 5 > 3);
 console.log("Less Than (<):", 3 < 5);
 console.log("Greater Than or Equal (>=):", 5 >= 3);
+
+console.clear();
+let sunny = true;
+let warm = true;
+
+// AND: True only if all conditions are met
+console.log("Is it sunny AND warm?", sunny && warm );
+
+// OR: True only if at least one condition is met
+console.log("Is it sunny AND warm?", sunny || warm );
+
+// NOT: Inverts the boolean value
+console.log("NOT sunny?", !sunny);
+
+//5. Assignment Expression
+// Assigning a value to a variable
+let num7 = 10;
+let num8 = 5;
+// Addition Assignment +=
+num7 += num8;
+console.log(num7);
+// Subtraction Assignment -=
+// Computation - 15 - 5 = 10
+num7 -= num8;
+console.log(num7);
+// Multiplication Assignment *=
+// Computation = 10 * 5 = 50
+num7 *= num8;
+console.log(num7);
+// Division Assignment /=
+// Computation = 50 / 5 = 10
+num7 /= num8;
+console.log(num7);
+
+// Exponent Assignment **=
+// Computation = 10 ** 5 = 100000
+num7 **= num8;
+console.log(num7);
+// Modulo/Remainder Assignment %=
+// Computation = 100000 % 5 = 0
+num7 %= num8;
+console.log(num7);
